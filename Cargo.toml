@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "orate_api",
+    "orate_server",
+]
+resolver = "2"
+

@@ -1,0 +1,22 @@
+openapi: 3.0.0
+info:
+  title: Simple Hello API
+  version: 0.1.0
+  description: A simple API for a Rust Axum tutorial example.
+servers:
+  - url: http://localhost:3000 # Replace with your actual server URL if different
+    description: Development server
+paths:
+  /v1/hello:
+    get:
+      summary: Returns a greeting
+      description: Responds with a simple string greeting.
+      operationId: getHello
+      responses:
+        '200':
+          description: A successful response with a greeting message.
+          content:
+            application/json:
+              schema:
+                type: string
+                example: "Hello, World!"
