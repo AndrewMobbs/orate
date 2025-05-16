@@ -30,7 +30,7 @@ Cargo should have already added the workspaces to the members field in Cargo.tom
 Create the directory:  
 `mkdir -p orate_api/api`
 
-Create the YAML file `orate/orate_api/api/orate.yaml`:
+Create the YAML file `orate/orate_api/api/orate.yaml`:  
 https://github.com/AndrewMobbs/orate/blob/34bcef15a6aa8afbf6402a508a1d1a6a152b93b8/orate_api/api/orate.yaml#L1C1-L22C41
 
 ## Generate the API library
