@@ -31,7 +31,7 @@ Create the directory:
 `mkdir -p orate_api/api`
 
 Create the YAML file `orate/orate_api/api/orate.yaml`:  
-https://github.com/AndrewMobbs/orate/blob/34bcef15a6aa8afbf6402a508a1d1a6a152b93b8/orate_api/api/orate.yaml#L1C1-L22C41
+https://github.com/AndrewMobbs/orate/blob/9a89739fb948592eafac0c9d6b43fac5950c7a15/orate_api/api/orate.yaml#L1-L22
 
 ## Generate the API library
 Test the generator. We will run it as a container using `podman`. The directory with the specification file is mapped into the container as a volume, and also used as the output target.
